@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Quick reset to prevent scrollbar jumps during transitions */
 body {
   margin: 0;
   padding: 0;
-  background-color: #020617;
-  overflow-x: hidden;
+  background-color: #020617; /* Matches slate-950 */
 }
