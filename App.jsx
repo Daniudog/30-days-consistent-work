@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { TiltCard } from './components/ui/TiltCard';
 
 export default function App() {
-  const [gameState, setGameState] = useState('START_SCREEN'); // START_SCREEN | IN_GAME
+  const [gameState, setGameState] = useState('START_SCREEN');
 
   return (
     <div className="relative min-h-screen w-full bg-slate-950 text-slate-100 overflow-x-hidden font-mono select-none">
