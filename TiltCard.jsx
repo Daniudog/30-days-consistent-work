@@ -15,7 +15,6 @@ export const TiltCard = ({ title, difficulty, description, techStack }) => {
     const mouseX = e.clientX - rect.left - width / 2;
     const mouseY = e.clientY - rect.top - height / 2;
 
-    // Scale rotation mapping (Max 15 degrees)
     const rY = (mouseX / (width / 2)) * 15;
     const rX = -(mouseY / (height / 2)) * 15;
 
